@@ -158,10 +158,6 @@ def modeldata(rot):
         # without ai_correlation (Smooth results)
         a4 = sf.a4_IBOF(a2) # using the a4_IBOF function to reconstruct a4 tensor from Elmer/Ice
 
-        # 2) construct nlm with ai_correlation (this results in jumps in the output because of the definition of single max vs girdle)
-        #aicorr = ai_correlator()
-        #nlm = aicorr.lami_to_nlm(a2, theta)
-
         nlm[:6] = sf.a2_to_nlm(a2)  # using a2 only gives different behaviour
         nlm[:15] = sf.a4_to_nlm(a4)
 
