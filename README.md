@@ -31,5 +31,5 @@ These scripts can be used to calculate enhancement factors from any fabric descr
 
 ## Additional data
 
-To reconstruct the results obtained from the crosspoint travel-time analysis requires **CP.mat** which can be downloaded from ERDA data archive (https://doi.org/?????/) under *raw_data/crosspoint_traveltime_analysis/*
+To reconstruct the results obtained from the crosspoint travel-time analysis requires **CP.mat** which can be downloaded from ERDA data archive ({https://doi.org/10.17894/ucph.ed9a1a1f-d6e6-41d5-894c-7e526f75fdd7) under *raw_data/crosspoint_traveltime_analysis/*
 
